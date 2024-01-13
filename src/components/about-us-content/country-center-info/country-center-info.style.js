@@ -67,6 +67,7 @@ export const SCountryCenterInfo = styled.div`
       align-items: center;
     }
 
+    
     @media only screen and (max-width: 425px) {
       display: flex;
       flex-direction: column;
