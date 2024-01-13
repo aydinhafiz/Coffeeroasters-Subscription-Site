@@ -6,6 +6,10 @@ const SFooter = styled.div`
     justify-content: center;
   }
 
+  @media only screen and (max-width: 788px) {
+    width: 100%;
+  }
+
   .footer-container {
     background: #2c343e;
     display: flex;
@@ -15,6 +19,10 @@ const SFooter = styled.div`
     @media only screen and (max-width: 900px) {
       flex-direction: column;
       padding: 54px 225px;
+    }
+
+    @media only screen and (max-width: 788px) {
+      width: 100%;
     }
 
     @media only screen and (max-width: 425px) {

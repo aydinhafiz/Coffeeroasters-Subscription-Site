@@ -1,8 +1,16 @@
 import styled from "styled-components";
 
 export const SCountryCenterInfo = styled.div`
+  max-width: 100%;
   @media only screen and (max-width: 900px) {
     display: flex;
+    justify-content: center;
+  }
+
+  @media only screen and (max-width: 790px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
   }
 
@@ -20,6 +28,15 @@ export const SCountryCenterInfo = styled.div`
     @media only screen and (max-width: 900px) {
       width: 788px;
     }
+
+    @media only screen and (max-width: 790px) {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+
     @media only screen and (max-width: 425px) {
       display: flex;
       flex-direction: column;
@@ -42,6 +59,13 @@ export const SCountryCenterInfo = styled.div`
   .center-info-boxes {
     display: flex;
     justify-content: space-between;
+
+    @media only screen and (max-width: 790px) {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
 
     @media only screen and (max-width: 425px) {
       display: flex;

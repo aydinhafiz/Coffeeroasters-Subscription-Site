@@ -4,11 +4,17 @@ export const SStep = styled.div`
   max-width: 406px;
   padding-top: 80px;
 
-  
   @media only screen and (max-width: 900px) {
     padding-top: 48px;
   }
   position: relative;
+
+  @media only screen and (max-width: 730px) {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
   @media only screen and (max-width: 425px) {
     width: 250px;
@@ -34,6 +40,10 @@ export const SStep = styled.div`
 
     @media only screen and (max-width: 900px) {
       left: 0;
+    }
+
+    @media only screen and (max-width: 730px) {
+      display: none;
     }
 
     @media only screen and (max-width: 425px) {
@@ -83,6 +93,10 @@ export const SStep = styled.div`
 
     @media only screen and (max-width: 900px) {
       width: 202px;
+    }
+
+    @media only screen and (max-width: 730px) {
+      display: none;
     }
 
     @media only screen and (max-width: 425px) {
@@ -137,11 +151,25 @@ export const SStep = styled.div`
       }}
     }
 
-    @media only screen and (max-width: 794px){
+    @media only screen and (max-width: 794px) {
       font-size: 22px;
       line-height: 26px;
     }
 
+    @media only screen and (max-width: 730px) {
+      text-align: center;
+      width: 425px;
+      margin-bottom: 24px;
+
+      ${(props) => {
+        if (props.type === "dark") {
+          return `color: #FEFCF7;`;
+        }
+        if (props.type === "light") {
+          return `background: #fefcf7;`;
+        }
+      }}
+    }
 
     @media only screen and (max-width: 425px) {
       text-align: center;
@@ -185,6 +213,20 @@ export const SStep = styled.div`
       font-weight: 400;
       line-height: 25px;
       width: 223px;
+
+      ${(props) => {
+        if (props.type === "dark") {
+          return `color: #FEFCF7;`;
+        }
+        if (props.type === "light") {
+          return `background: #fefcf7;`;
+        }
+      }}
+    }
+
+    @media only screen and (max-width: 730px) {
+      width: 375px;
+      text-align: center;
 
       ${(props) => {
         if (props.type === "dark") {

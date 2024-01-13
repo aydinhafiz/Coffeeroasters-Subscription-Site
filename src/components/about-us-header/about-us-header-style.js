@@ -19,6 +19,31 @@ export const SAboutHeader = styled.div`
     background-position: 50% 50%;
   }
 
+
+  @media only screen and (max-width: 785px) {
+    width: 100%;
+  }
+
+  @media only screen and (max-width: 760px) {
+    width: 100%;
+  }
+
+  @media only screen and (max-width: 762px) {
+    width: 100%;
+  }
+
+  @media only screen and (max-width: 740px) {
+    width: 100%;
+  }
+
+  @media only screen and (max-width: 720px) {
+    width: 100%;
+  }
+
+
+
+
+
   @media only screen and (max-width: 425px) {
     padding: 111px 24px 87px 24px;
     margin-bottom: 120px;

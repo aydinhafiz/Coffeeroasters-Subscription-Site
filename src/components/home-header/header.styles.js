@@ -21,16 +21,23 @@ export const SHomeHeader = styled.div`
   }
 
   @media only screen and (max-width: 785px) {
-    width: 785px;
+    width: 100%;
   }
+
   @media only screen and (max-width: 760px) {
-    width: 760px;
+    width: 100%;
   }
+
+  @media only screen and (max-width: 762px) {
+    width: 100%;
+  }
+
   @media only screen and (max-width: 740px) {
-    width: 740px;
+    width: 100%;
   }
+
   @media only screen and (max-width: 720px) {
-    width: 720px;
+    width: 100%;
   }
 
   @media only screen and (max-width: 425px) {

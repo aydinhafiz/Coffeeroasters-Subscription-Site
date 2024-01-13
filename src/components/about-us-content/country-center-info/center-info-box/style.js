@@ -2,7 +2,14 @@ import styled from "styled-components";
 
 export const SCenterInfoBox = styled.div`
   @media only screen and (max-width: 900px) {
-    width: 323px;
+    width: 100%;
+  }
+
+  @media only screen and (max-width: 790px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
   @media only screen and (max-width: 425px) {
@@ -31,6 +38,14 @@ export const SCenterInfoBox = styled.div`
       font-size: 24px;
       line-height: 36px;
     }
+
+    @media only screen and (max-width: 790px) {
+      text-align: center;
+      font-size: 28px;
+      line-height: 36px;
+      margin-bottom: 30px;
+    }
+
     @media only screen and (max-width: 425px) {
       text-align: center;
       font-size: 28px;
@@ -41,6 +56,14 @@ export const SCenterInfoBox = styled.div`
 
   .country-center-info-box-description {
     text-align: start;
+
+    @media only screen and (max-width: 790px) {
+      text-align: center;
+      margin-bottom: 45px;
+      &:not(:last-child) {
+      }
+    }
+
     @media only screen and (max-width: 425px) {
       text-align: center;
       margin-bottom: 45px;

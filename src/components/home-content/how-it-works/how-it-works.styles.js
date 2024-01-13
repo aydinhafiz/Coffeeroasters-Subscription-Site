@@ -2,6 +2,14 @@ import styled from "styled-components";
 
 export const SHowWorks = styled.div`
   margin-top: 200px;
+  width: 100%;
+
+  @media only screen and (max-width: 730px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
 
   @media only screen and (max-width: 425px) {
     display: flex;
@@ -23,6 +31,12 @@ export const SHowWorks = styled.div`
     @media only screen and (max-width: 900px) {
       width: 255px;
       padding-left: 39px;
+    }
+
+    @media only screen and (max-width: 730px) {
+      text-align: start;
+      margin-right: 24px;
+      margin-left: 24px;
     }
 
     @media only screen and (max-width: 425px) {
@@ -55,6 +69,10 @@ export const SHowWorks = styled.div`
 
     @media only screen and (max-width: 900px) {
       margin-left: 39px;
+    }
+
+    @media only screen and (max-width: 730px) {
+      margin-right: 55px;
     }
 
     @media only screen and (max-width: 425px) {

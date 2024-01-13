@@ -26,6 +26,11 @@ export const SSteps = styled.div`
     //padding: 55px 40px 46px 39px;
   }
 
+  @media only screen and (max-width: 730px) {
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 25px 80px 24px;
+  }
 
   @media only screen and (max-width: 425px) {
     flex-direction: column;

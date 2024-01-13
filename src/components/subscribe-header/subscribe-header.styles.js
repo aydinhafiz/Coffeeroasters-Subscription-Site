@@ -19,11 +19,8 @@ export const SSubscribeHeader = styled.div`
     border-radius: 10px;
   }
 
-  @media only screen and (max-width: 760px) {
-    width: 760px;
-  }
-  @media only screen and (max-width: 750px) {
-    width: 749px;
+  @media only screen and (max-width: 790px) {
+    width: 100%;
   }
 
   @media only screen and (max-width: 425px) {
