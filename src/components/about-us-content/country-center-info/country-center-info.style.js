@@ -57,7 +57,6 @@ export const SCountryCenterInfo = styled.div`
   }
 
 
-  
   .center-info-boxes {
     display: flex;
     justify-content: space-between;
