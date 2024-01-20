@@ -13,7 +13,6 @@ function Navbar() {
     });
   }
 
-  
   return (
     <SNavbar>
       <ScrollToTop />
