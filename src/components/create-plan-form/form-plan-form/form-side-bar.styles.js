@@ -7,6 +7,7 @@ const SFormSideBar = styled.div`
   max-width: 255px;
 
   
+
   .side-bar-steps {
     display: flex;
     padding-bottom: 24px;
