@@ -26,6 +26,7 @@ const SFormSideBar = styled.div`
     }
   }
 
+  
   .side-bar-steps-active {
     display: flex;
     padding-bottom: 24px;
