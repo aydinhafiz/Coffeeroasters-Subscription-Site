@@ -128,7 +128,6 @@ export const SHomeHeader = styled.div`
     }
   }
 
-  
   .create-plan-info-description__button {
     border: none;
     padding: 15px 31px 16px 31px;
