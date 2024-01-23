@@ -21,7 +21,7 @@ const SFooter = styled.div`
       padding: 54px 225px;
     }
     @media only screen and (max-width: 450px) {
-      padding: 0px 0px;
+      padding: 54px 103px;
     }
 
     @media only screen and (max-width: 788px) {

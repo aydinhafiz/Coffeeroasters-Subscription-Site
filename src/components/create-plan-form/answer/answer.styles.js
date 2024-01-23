@@ -7,6 +7,10 @@ const SAnswer = styled.button`
   background: #f4f1eb;
   border: none;
 
+  @media only screen and (max-width: 850px) {
+    margin-right: 10px;
+  }
+
   @media only screen and (max-width: 425px) {
     padding: 24px 24px 24px 25px;
     max-width: 350px;
