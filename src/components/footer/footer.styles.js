@@ -20,6 +20,9 @@ const SFooter = styled.div`
       flex-direction: column;
       padding: 54px 225px;
     }
+    @media only screen and (max-width: 450px) {
+      padding: 0px 0px;
+    }
 
     @media only screen and (max-width: 788px) {
       width: 100%;
@@ -39,6 +42,8 @@ const SFooter = styled.div`
     gap: 102px;
     @media only screen and (max-width: 900px) {
       flex-direction: column;
+      align-items: center;
+      justify-content: center;
       gap: 32px;
     }
   }
@@ -51,7 +56,12 @@ const SFooter = styled.div`
 
     @media only screen and (max-width: 900px) {
       position: static;
-      margin-left: 60px;
+      /* margin-left: 60px; */
+    }
+
+    @media only screen and (max-width: 760px) {
+      width: 318px;
+      margin-left: 70px;
     }
 
     @media only screen and (max-width: 425px) {

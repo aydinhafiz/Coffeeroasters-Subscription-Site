@@ -3,7 +3,7 @@ import SFooter from "./footer.styles";
 import { Link } from "react-router-dom";
 
 function Footer() {
-  return (
+  return (  
     <SFooter>
       <div className="footer-container">
         <div className="left-side">

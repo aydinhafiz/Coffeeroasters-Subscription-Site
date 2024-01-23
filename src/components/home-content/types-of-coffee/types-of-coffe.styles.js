@@ -7,18 +7,25 @@ export const STypesOfCoffee = styled.div`
   align-items: center;
   justify-content: center;
   position: relative;
-  gap: 30;
+
+  @media only screen and (max-width: 900px) {
+    justify-content: center;
+  }
+
+  @media only screen and (max-width: 675px) {
+    display: flex;
+    margin-left: 0;
+  }
 
   @media only screen and (max-width: 600px) {
     flex-direction: column;
   }
 
-  @media only screen and (max-width: 900px) {
-    justify-content: start;
-    margin-left: 130px;
-  }
-
   @media only screen and (max-width: 425px) {
+    justify-content: center;
+    margin-left: 0px;
+  }
+  @media only screen and (max-width: 515px) {
     justify-content: center;
     margin-left: 0px;
   }

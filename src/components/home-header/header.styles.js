@@ -55,6 +55,10 @@ export const SHomeHeader = styled.div`
       justify-content: center;
       align-items: center;
     }
+    @media only screen and (max-width: 525px) {
+      display: flex;
+      flex-direction: column;
+    }
   }
 
   .create-plan-info-description__title {
@@ -72,6 +76,10 @@ export const SHomeHeader = styled.div`
       font-size: 48px;
       font-weight: 900;
       line-height: 48px;
+    }
+
+    @media only screen and (max-width: 525px) {
+      width: 350px;
     }
 
     @media only screen and (max-width: 425px) {
@@ -104,6 +112,10 @@ export const SHomeHeader = styled.div`
       line-height: 25px;
     }
 
+    @media only screen and (max-width: 525px) {
+      width: 350px;
+    }
+
     @media only screen and (max-width: 425px) {
       color: #fefcf7;
       text-align: center;
@@ -131,6 +143,10 @@ export const SHomeHeader = styled.div`
 
     border-radius: 6px;
     background: #0e8784;
+
+    @media only screen and (max-width: 525px) {
+      width: 190px;
+    }
 
     @media only screen and (max-width: 425px) {
       padding: 15px 31px 16px 31px;

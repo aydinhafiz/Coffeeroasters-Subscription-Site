@@ -41,8 +41,7 @@ function TypesOfCoffee() {
   //   }
   // }, []);
 
-
-/// HERE,-
+  /// HERE,-
 
   // function handleCoffeeClick(coffeeType) {
   //   if (clickedCoffees.includes(coffeeType)) {
