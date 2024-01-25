@@ -17,6 +17,7 @@ const SAnswer = styled.button`
     margin-bottom: 16px;
   }
 
+  
   ${(props) =>
     props.$clicked ? "background:#0E8784; color: #FFF;" : "background:#f4f1eb;"}
 
