@@ -28,6 +28,7 @@ const SAnswer = styled.button`
       background: #0e8784;
     }
   }
+
   
   .answer-title {
     color: #333d4b;
