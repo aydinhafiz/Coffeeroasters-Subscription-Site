@@ -29,7 +29,6 @@ const SAnswer = styled.button`
     }
   }
 
-  
   .answer-title {
     color: #333d4b;
     font-family: "Fraunces" 9pt;
