@@ -7,7 +7,6 @@ import Header from "../components/home-header/header";
 import Footer from "../components/footer/footer";
 
 
-
 function Home() {
   return (
     <div className="container">
