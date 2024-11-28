@@ -8,6 +8,7 @@ import { GlobalStyle } from "./components/global-style/global-style";
 import Subscribe from "./pages/Subscribe";
 
 
+
 const router = createBrowserRouter([
   {
     path: "/",
